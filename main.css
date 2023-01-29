@@ -1,0 +1,64 @@
+body
+{
+background-image: url("/Users/saida/Desktop/Dev/bkimage.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+a{
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 500;
+    color: rgb(174, 68, 166);
+    border-right: 300px;
+    border-left: 300px;
+    align-items: center;
+padding-left: 40px;
+padding-right: 40px;
+    }
+header{
+    background-color: rgba(168, 166, 170, 0.758);
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    float: left;
+    padding: 25px 80px;  
+    background-color: rgba(202, 202, 202, 0.57);
+    margin: 30px 60px;
+    width: 200px;
+    height: 230px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif ;
+
+}
+p{
+    font-family: Inria Serif;
+    font-size: 19px;
+} 
+
+img{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin: 30px 40px;
+}
+button{
+    color: black;
+    background-color: beige;
+    border-radius: 8px;
+    border: 2px solid blueviolet;
+    width: 100px;
+    height: 40px;
+}
+footer {
+    position: fixed;
+    padding: 50px 150px ;
+    bottom: 0;
+    height: 2mm;
+    width: 30cm;
+    background: rgba(168, 166, 170, 0.758);
+    text-align: center;
+
+  }
